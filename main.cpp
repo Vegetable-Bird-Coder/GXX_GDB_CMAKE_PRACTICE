@@ -7,6 +7,7 @@ void test() {
     soldier0.load(10);
     while (soldier0.fire());
     soldier0.load(5);
+    soldier0.load(5);
 }
 
 int main(int argc, char **argv) {
