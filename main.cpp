@@ -7,7 +7,6 @@ void test() {
     soldier0.load(10);
     while (soldier0.fire());
     soldier0.load(5);
-    soldier0.load(5);
     while (soldier0.fire());
 }
 
