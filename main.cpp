@@ -11,6 +11,7 @@ void test() {
     soldier0.load(10);
     Soldier soldier1("yy", std::make_shared<Gun>("So Cute"));
     soldier1.load(15);
+    while(soldier1.fire());
 }
 
 int main(int argc, char **argv) {
